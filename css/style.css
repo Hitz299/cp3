@@ -16,6 +16,13 @@
   border-color: rgb(255, 145, 0);
 }
 
+#dados-container ul li{
+ display: flex;
+ text-align: center;
+ align-content: center;
+ justify-content: center;
+}
+
 .txt{
   display: block;
   text-align: center;
@@ -26,6 +33,7 @@
   border: inset 0.25vw rebeccapurple;
   border-radius: 32px;
   width: 20vw;
+  padding: 10px;
 }
 
 #index-container{
