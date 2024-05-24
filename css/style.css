@@ -16,6 +16,23 @@
   border-color: rgb(255, 145, 0);
 }
 
+.txt{
+  display: block;
+  text-align: center;
+  align-self: center ;
+  justify-content: center;
+  margin-top: 10vh;
+  font-size: 2vw;
+  border: inset 0.25vw rebeccapurple;
+  border-radius: 32px;
+  width: 20vw;
+}
+
+#index-container{
+  margin: auto;
+  
+}
+
 input {
   width: 30vw;
   border-radius: 6px;
