@@ -23,7 +23,7 @@ const validar = (email, senha)=>{
             window.location.href = "../html/index.html";
             }, 5000);
            
-          
+           
 
            return false;
         }

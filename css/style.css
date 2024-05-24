@@ -97,3 +97,27 @@ header {
 p {
   cursor: pointer;
 }
+
+.negado {
+  width: 20vw;
+  margin-top: 10vh;
+  border-radius: 6px;
+  padding: 0.8vw;
+  background-color: rgba(255, 62, 62, 0.527);
+}
+
+.sucesso {
+  width: 20vw;
+  margin-top: 10vh;
+  padding: 0.8vw;
+  border: 6px;
+  background-color: rgba(101, 255, 62, 0.527);
+}
+
+#mensagem {
+  margin: 0 auto;
+  display: flex;
+  width: 20vw;
+  text-align: center;
+  align-items: center;
+}
