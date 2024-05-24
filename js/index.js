@@ -1,3 +1,5 @@
+const btnlogout = document.querySelector("#btnLogout");
+
 let user = JSON.parse(localStorage.getItem("validado"));
 console.log(`essa é a porra do nome ${user.nome}`);
 
@@ -8,3 +10,10 @@ const txtAltura = document.querySelector(".txtAltura");
 txtnome.textContent = `Nome: ${user.nome}`;
 txtIdade.textContent = `Idade: ${user.idade}`;
 txtAltura.textContent = `Altura: ${user.altura}`;
+
+btnlogout.addEventListener("click",()=>{
+
+    localStorage.removeItem("validado");
+    window.location.href = "../html/login.html"
+
+});

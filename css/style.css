@@ -26,8 +26,8 @@
   border-radius: 32px;
   margin-top: 10vh;
   box-shadow: inset 0.12vw 0 0.2vw 0.1vw  black;
-  text-align: center;
-  gap: 3vh;
+  align-items: center;
+  gap: 6vh;
 }
 
 #dados-container ul li {
@@ -55,6 +55,12 @@
 #index-container{
   margin: auto;
   
+}
+
+#btnLogout
+{
+ width: 10vw;
+ cursor: pointer;
 }
 
 input {
